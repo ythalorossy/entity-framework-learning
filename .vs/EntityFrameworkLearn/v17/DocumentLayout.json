@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\data\\datadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|solutionrelative:data\\datadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBFA08EA-AECE-205F-7B85-326FD0B81BAD}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\data\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|solutionrelative:data\\configurations\\postconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16C8B58-4EE7-4D36-8B5B-B993340F6A16}|Domain\\Domain.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\domain\\posts\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16C8B58-4EE7-4D36-8B5B-B993340F6A16}|Domain\\Domain.csproj|solutionrelative:domain\\posts\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\data\\configurations\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|solutionrelative:data\\configurations\\authorconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\data\\configurations\\blogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C375CC-5F14-4135-90AF-EB664457F4BD}|Data\\Data.csproj|solutionrelative:data\\configurations\\blogconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16C8B58-4EE7-4D36-8B5B-B993340F6A16}|Domain\\Domain.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\domain\\authors\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16C8B58-4EE7-4D36-8B5B-B993340F6A16}|Domain\\Domain.csproj|solutionrelative:domain\\authors\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D16C8B58-4EE7-4D36-8B5B-B993340F6A16}|Domain\\Domain.csproj|c:\\users\\ysaldanha\\source\\repos\\entityframeworklearn\\domain\\blogs\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D16C8B58-4EE7-4D36-8B5B-B993340F6A16}|Domain\\Domain.csproj|solutionrelative:domain\\blogs\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 223,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T03:21:08.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Domain\\Posts\\Post.cs",
+              "RelativeDocumentMoniker": "Domain\\Posts\\Post.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Domain\\Posts\\Post.cs",
+              "RelativeToolTip": "Domain\\Posts\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T01:00:34.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\Configurations\\PostConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\PostConfiguration.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\Configurations\\PostConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\PostConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T03:33:42.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\DataDBContext.cs",
+              "RelativeDocumentMoniker": "Data\\DataDBContext.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\DataDBContext.cs",
+              "RelativeToolTip": "Data\\DataDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-29T21:01:30.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlogConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\Configurations\\BlogConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\BlogConfiguration.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\Configurations\\BlogConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\BlogConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T00:49:12.734Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 177,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthorConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\Configurations\\AuthorConfiguration.cs",
+              "RelativeDocumentMoniker": "Data\\Configurations\\AuthorConfiguration.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Data\\Configurations\\AuthorConfiguration.cs",
+              "RelativeToolTip": "Data\\Configurations\\AuthorConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T02:19:52.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Author.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Domain\\Authors\\Author.cs",
+              "RelativeDocumentMoniker": "Domain\\Authors\\Author.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Domain\\Authors\\Author.cs",
+              "RelativeToolTip": "Domain\\Authors\\Author.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T02:16:56.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Domain\\Blogs\\Blog.cs",
+              "RelativeDocumentMoniker": "Domain\\Blogs\\Blog.cs",
+              "ToolTip": "C:\\Users\\ysaldanha\\source\\repos\\EntityFrameworkLearn\\Domain\\Blogs\\Blog.cs",
+              "RelativeToolTip": "Domain\\Blogs\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T01:03:19.843Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
