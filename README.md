@@ -1,4 +1,11 @@
-##Solution Architecture
+# Repository Description
+
+This repository is dedicated to learning and implementing the Entity Framework. It includes examples and projects that demonstrate how to use Entity Framework for data access in .NET applications.
+
+Additionally, the repository incorporates Domain Driven Design (DDD) and Clean Architecture principles to ensure separation of concerns and improve maintainability. By structuring the codebase according to these architectural patterns, the repository aims to provide a robust foundation for scalable and maintainable software development.
+
+
+## Solution Architecture
 
 - Your solution follows a Clean Architecture structure with four projects:
   - `Api`: Presentation layer (Web API)
@@ -6,7 +13,7 @@
   - `Domain`: Entities, value objects, interfaces, business rules
   - `Infra` (or `Data`): EF Core DbContext, repository implementations
 
-##Application Layer and MediatR
+## Application Layer and MediatR
 
 - Use cases like `CreateBlogCommand` and `CreatePostCommand` are implemented in the `Application` project using MediatR.
 - Handlers are injected with repository interfaces and domain services.
