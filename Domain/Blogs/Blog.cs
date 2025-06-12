@@ -12,7 +12,7 @@ public class Blog(BlogId id, string name, Uri siteUri) : Entity<BlogId>(id), IAg
 
     public void AddPost(Post post)
     {
-        var existingPost = _posts.SingleOrDefault(p => p.Id == post.Id);
+        var existingPost = _posts.SingleOrDefault(p => Equals(p.Id, post.Id));
         if (existingPost == null) _posts.Add(post);
     }
 }

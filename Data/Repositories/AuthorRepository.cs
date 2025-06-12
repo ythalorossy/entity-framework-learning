@@ -5,6 +5,14 @@ namespace Data.Repositories;
 
 public class AuthorRepository(DataDbContext dataDbContext) : IAuthorRepository<AuthorId, Author>
 {
+    public async Task<Author?> GetAuthorByIdAsync(AuthorId id)
+    {
+        return await dataDbContext.Authors
+                   .FirstOrDefaultAsync(a => a != null && a.Id == id)
+               ?? throw new InvalidOperationException($"Author with id {id} not found.");
+    }
+
+
     public async Task<Author?> GetAuthorByNameAndEmailAsync(string name, string email)
     {
         if (string.IsNullOrWhiteSpace(name))
@@ -18,7 +26,7 @@ public class AuthorRepository(DataDbContext dataDbContext) : IAuthorRepository<A
             .FirstOrDefaultAsync();
     }
 
-    public async Task<Author?> AddAuthorAsync(Author? author)
+    public async Task<Author> AddAuthorAsync(Author? author)
     {
         ArgumentNullException.ThrowIfNull(author);
         await dataDbContext.Authors.AddAsync(author);

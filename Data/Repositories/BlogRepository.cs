@@ -13,7 +13,7 @@ public class BlogRepository(DataDbContext dataDbContext) : IBlogRepository<BlogI
         return blog;
     }
 
-    public async Task<Blog> GetBlogByNameAndUriAsync(string name, Uri siteUri)
+    public async Task<Blog?> GetBlogByNameAndUriAsync(string name, Uri siteUri)
     {
         if (string.IsNullOrWhiteSpace(name))
             throw new ArgumentException("Name must be provided.", nameof(name));
@@ -22,9 +22,8 @@ public class BlogRepository(DataDbContext dataDbContext) : IBlogRepository<BlogI
             throw new ArgumentException("URI must be provided.", nameof(siteUri));
 
         return await dataDbContext.Blogs
-                   .AsNoTracking()
-                   .FirstOrDefaultAsync(b => b.Name == name && b.SiteUri == siteUri)
-               ?? throw new InvalidOperationException("Blog not found with the given name and URI.");
+            .Where(b => b.Name == name && b.SiteUri == siteUri)
+            .FirstOrDefaultAsync();
     }
 
 
@@ -37,7 +36,8 @@ public class BlogRepository(DataDbContext dataDbContext) : IBlogRepository<BlogI
 
     public async Task<Blog> GetBlogByIdAsync(BlogId id)
     {
-        return await dataDbContext.Blogs.FindAsync(id)
+        return await dataDbContext.Blogs
+                   .FindAsync(id)
                ?? throw new InvalidOperationException($"Blog with id {id} not found.");
     }
 

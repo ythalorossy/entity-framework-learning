@@ -9,7 +9,7 @@ namespace Api.Controllers;
 public class AuthorController(IMediator mediator) : Controller
 {
     [HttpPost]
-    public async Task<IActionResult> Create([FromBody] CreateAuthorCommand command)
+    public async Task<IActionResult> Create([FromBody] CreateAuthor command)
     {
         try
         {
