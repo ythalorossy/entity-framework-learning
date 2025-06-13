@@ -1,13 +1,8 @@
 namespace Domain.Common;
 
-public abstract class Entity<TId>
+public abstract class Entity<TId>(TId id)
 {
-    protected Entity(TId id)
-    {
-        Id = id;
-    }
-
-    public TId Id { get; }
+    public TId Id { get; } = id;
 
     public override bool Equals(object? obj)
     {

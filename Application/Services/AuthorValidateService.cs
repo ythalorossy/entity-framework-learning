@@ -1,7 +1,7 @@
 using Application.Interfaces;
 using Domain.Authors;
 
-namespace Application.UseCases.Authors;
+namespace Application.Services;
 
 public class AuthorValidateService(IAuthorRepository<AuthorId, Author> authorRepository) : IAuthorValidateService
 {
