@@ -3,7 +3,6 @@ using Api.Middleware;
 using Application.Interfaces;
 using Application.Mappings;
 using Application.Services;
-using Application.UseCases.Authors;
 using Application.UseCases.Blogs;
 using Data;
 using Data.Repositories;

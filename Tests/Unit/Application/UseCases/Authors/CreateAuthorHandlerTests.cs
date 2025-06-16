@@ -8,7 +8,7 @@ using Domain.Authors;
 using Moq;
 using NUnit.Framework;
 
-namespace Application.Tests.UseCases.Authors;
+namespace Tests.Unit.Application.UseCases.Authors;
 
 [TestFixture]
 [TestOf(typeof(CreateAuthorHandler))]

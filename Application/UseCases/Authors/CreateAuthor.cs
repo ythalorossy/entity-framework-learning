@@ -12,9 +12,10 @@ public class CreateAuthorHandler(
 {
     public async Task<AuthorId> Handle(CreateAuthor request, CancellationToken cancellationToken)
     {
+        var authorId = AuthorId.New();
         var name = request.Name;
         var email = request.Email;
-        var authorId = AuthorId.New();
+        
         var author = new Author(authorId, name, email);
 
         authorValidateService.ValidateAuthor(author);
