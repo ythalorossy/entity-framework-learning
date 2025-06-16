@@ -9,6 +9,7 @@ using Data;
 using Data.Repositories;
 using Domain.Authors;
 using Domain.Blogs;
+using Domain.Categories;
 using Domain.Posts;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -29,9 +30,11 @@ builder.Services.AddAutoMapper(typeof(DomainToDtoProfile));
 builder.Services.AddScoped<IBlogRepository<BlogId, Blog>, BlogRepository>();
 builder.Services.AddScoped<IAuthorRepository<AuthorId, Author>, AuthorRepository>();
 builder.Services.AddScoped<IPostRepository<PostId, Post>, PostRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 // Domain Services
 builder.Services.AddScoped<IBlogValidateService, BlogValidateService>();
 builder.Services.AddScoped<IAuthorValidateService, AuthorValidateService>();
+builder.Services.AddScoped<ICategoryValidateService, CategoryValidateService>();
 
 var app = builder.Build();
 app.UseMiddleware<GlobalExceptionHandlingMiddleware>();

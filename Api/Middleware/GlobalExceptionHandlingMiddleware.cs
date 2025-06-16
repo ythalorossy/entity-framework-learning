@@ -46,7 +46,7 @@ public class GlobalExceptionHandlingMiddleware(
                 context.Response.StatusCode = (int)HttpStatusCode.Conflict;
                 response.Message = ex.Message;
                 break;
-            
+
             default:
                 context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                 response.Message = "An internal server error occurred.";

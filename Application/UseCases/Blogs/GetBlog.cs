@@ -12,7 +12,7 @@ public class GetBlogHandler(IBlogRepository<BlogId, Blog> blogRepository) : IReq
     {
         if (!Guid.TryParse(request.BlogId, out var parsedBlogId))
             throw new ValidationException(["Invalid blog ID format"]);
-        
+
         var blogId = new BlogId(parsedBlogId);
 
         var blog = await blogRepository.GetBlogByIdAsync(blogId);

@@ -1,6 +1,7 @@
 ﻿using Data.Configurations;
 using Domain.Authors;
 using Domain.Blogs;
+using Domain.Categories;
 using Domain.Posts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -35,15 +36,16 @@ public class DataDbContext(DbContextOptions<DataDbContext> options) : DbContext(
 {
     public DbSet<Blog> Blogs { get; set; }
     public DbSet<Post> Posts { get; set; }
-
     public DbSet<Author> Authors { get; set; }
+    public DbSet<Category> Categories { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder
             .ApplyConfiguration(new BlogConfiguration())
             .ApplyConfiguration(new PostConfiguration())
-            .ApplyConfiguration(new AuthorConfiguration());
+            .ApplyConfiguration(new AuthorConfiguration())
+            .ApplyConfiguration(new CategoryConfiguration());
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

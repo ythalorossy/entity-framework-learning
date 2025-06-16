@@ -1,5 +1,6 @@
 ﻿using Domain.Authors;
 using Domain.Blogs;
+using Domain.Categories;
 using Domain.Common;
 using Domain.Tags;
 
@@ -11,6 +12,10 @@ public class Post(PostId id, string title, string content) : Entity<PostId>(id)
     public string Content { get; set; } = content;
     public DateTime PublishedOn { get; set; } = DateTime.UtcNow;
     public bool Archived { get; set; }
+
+    // Category relationship
+    public CategoryId CategoryId { get; private set; } = null!;
+    public Category Category { get; private set; } = null!;
 
     // Blog relationship
     public BlogId BlogId { get; private set; } = null!;
@@ -37,6 +42,16 @@ public class Post(PostId id, string title, string content) : Entity<PostId>(id)
     public Post SetBlog(Blog blog)
     {
         Blog = blog;
+        return this;
+    }
+
+    public void AddCategory(Category category)
+    {
+    }
+
+    public Post SetCategory(Category category)
+    {
+        Category = category;
         return this;
     }
 }

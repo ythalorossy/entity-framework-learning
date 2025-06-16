@@ -36,7 +36,7 @@ public class BlogController(IMediator mediator, IMapper mapper)
         var blog = await _mediator.Send(new GetBlog(blogId));
         return Ok(_mapper.Map<BlogDto>(blog));
     }
-    
+
     [HttpGet]
     [Route("{blogId}/posts")]
     public async Task<IActionResult> GetPosts(string blogId)
